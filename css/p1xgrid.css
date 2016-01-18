@@ -21,7 +21,7 @@ ul, li, ol {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
   position: relative;
-  width: 800px;
+  width: 990px;
   margin: 0 auto;}
 
 .container:after,
@@ -31,13 +31,13 @@ ul, li, ol {
   clear: both; }
 
 .row+.row{
-    margin-top:80px;}
+    margin-top:99px;}
 .col {
-  width: 160px;
-  min-height:160px;
+  width: 198px;
+  min-height:198px;
   float: left;}
 .row.half .col {
-    min-height:80px;}
+    min-height:99px;}
 
 .col.wide {
     width:320px;}
@@ -70,8 +70,11 @@ body {
 p,li {font-size:0.9em;}
 
 
-a {
-    text-decoration:none;
+a,
+a:link,
+a:visited,
+a:active {
+    text-decoration:underline;
     color:#222;}
 
 ul+h4,
@@ -90,7 +93,10 @@ h2+p{
 }
 nav {
     padding:20px 0;}
-nav a {
+nav a,
+nav a:link,
+nav a:visited,
+nav a:active {
     display: block;
     width: 100%;
     height: 15px;
