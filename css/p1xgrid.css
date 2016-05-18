@@ -94,7 +94,7 @@ h2+p{
 
 .col >h2{
     background-color: #000; color: #fff;
-    margin:0; padding: 0.5em 1em;}
+    margin:0; padding: 0.5em;}
 .col >h2 a:link,
 .col >h2 a:visited,
 .col >h2 a:active{
@@ -168,3 +168,7 @@ a:hover {
   80% { color:#44891a; }
   100% { color:#005784; }
 }
+
+.game + .game {
+  padding-top:3em; margin-top:3em;
+  border-top:1px solid #cde;}
