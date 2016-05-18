@@ -91,6 +91,16 @@ h3+p,
 h2+p{
     margin-top:15px;
 }
+
+.col >h2{
+    background-color: #000; color: #fff;
+    margin:0; padding: 0.5em 1em;}
+.col >h2 a:link,
+.col >h2 a:visited,
+.col >h2 a:active{
+    color:#fff;
+}
+
 nav {
     padding:20px 0;}
 nav a,
