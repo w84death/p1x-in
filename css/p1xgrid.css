@@ -92,6 +92,10 @@ h2+p{
     margin-top:15px;
 }
 
+article >h2 {
+  text-align: center;
+  margin:2em 0;}
+
 .col >h2{
     background-color: #000; color: #fff;
     margin:0; padding: 0.5em;}
