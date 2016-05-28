@@ -112,6 +112,11 @@ article nav ul {
 
 article nav ul li {
   display:inline;
+  margin:0;
+  padding:0;  }
+
+article nav a {
+  display:inline;
   padding:0.5em 1em;
   margin:0 1em;}
 
