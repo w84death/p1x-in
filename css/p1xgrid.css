@@ -1,16 +1,16 @@
 /* Clear
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 *, *:before, *:after {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;}
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;}
 h1, h2, h3, h4, h5, h6, p {
     margin:0;
     padding:0;}
 
-h2 {  margin-top: -8px;}
-h3 {  margin-top: -6px;}
-h4 {  margin-top: -4px;}
+h2 {  margin-top:-8px;}
+h3 {  margin-top:-6px;}
+h4 {  margin-top:-4px;}
 
 ul, li, ol {
     margin:0;
@@ -20,22 +20,22 @@ ul, li, ol {
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
-  position: relative;
-  width: 990px;
-  margin: 0 auto;}
+  position:relative;
+  width:990px;
+  margin:0 auto;}
 
 .container:after,
 .row:after{
-  content: "";
-  display: table;
-  clear: both; }
+  content:"";
+  display:table;
+  clear:both; }
 
 .row+.row{
     margin-top:99px;}
 .col {
-  width: 198px;
+  width:198px;
   min-height:198px;
-  float: left;}
+  float:left;}
 .row.half .col {
     min-height:99px;}
 
@@ -61,9 +61,9 @@ ul, li, ol {
 /* Layout
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family:'Open Sans', sans-serif;
     font-size:1em;
-    background-color: #f8f8f8;
+    background-color:#f8f8f8;
     color:#222;
 }
 
@@ -92,11 +92,24 @@ h2+p{
     margin-top:15px;
 }
 
+
 article >h2 {
-  text-align: center;
+  text-align:center;
   margin:0 0 1em 0;
-  background-color: #000;
-  padding: 1em 0;}
+  padding:1em 0;
+  color:#fff;
+  background-color:#000;}
+
+
+
+.col >h2{
+    background-color:#000; color:#fff;
+    margin:0; padding:0.5em;}
+.col >h2 a:link,
+.col >h2 a:visited,
+.col >h2 a:active{
+    color:#fff;
+}
 
 nav {
     padding:20px 0;}
@@ -104,15 +117,15 @@ nav a,
 nav a:link,
 nav a:visited,
 nav a:active {
-    display: block;
-    width: 100%;
-    height: 15px;
-    line-height: 15px;
+    display:block;
+    width:100%;
+    height:15px;
+    line-height:15px;
     margin:65px 0 65px 0;
 
-    text-decoration: none;
+    text-decoration:none;
     color:#222;
-    font-weight: 900;
+    font-weight:900;
     font-size:0.8em;
 }
 nav a span{
@@ -146,18 +159,18 @@ nav h1 a:hover {
 
 nav a:hover span,
 a:hover {
-  -webkit-animation: rainbow 666ms infinite;
-          animation: rainbow 666ms infinite;}
+  -webkit-animation:rainbow 666ms infinite;
+          animation:rainbow 666ms infinite;}
 
 
 
 article nav {
-  padding: 0;
-  text-align: center;
-  margin-bottom: 6em;}
+  padding:0;
+  text-align:center;
+  margin-bottom:6em;}
 
 article nav ul {
-  list-style: none;
+  list-style:none;
   margin:0;
   padding:0;}
 
