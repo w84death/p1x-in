@@ -1,0 +1,71 @@
+- title: Upcoming and Planned
+  events:
+  - name: FOSDEM && GODOTCON
+    date: February 2018
+    location: Brussels, Belgium
+    www: https://fosdem.org/2018/
+    gallery:
+    description: We will be visiting this awesome events.
+
+- title: 2017
+  events:
+  - name: Poznan Game Arena
+    date: November 2017
+    location: Poznań, Poland
+    www: http://gamearena.pl/
+    gallery:
+    description: As in every year we have a booth at Indie Zone. It was full of arcade fun!
+  - name: Pyrkon
+    date: April 2017
+    location: Poznań, Poland
+    www: http://pyrkon.pl/
+    gallery: https://vimeo.com/220228025
+    description: New booth design. New game Boctok. Arcade games are best games for trade shows.
+
+- title: 2016
+  events:
+  - name: Poznan Game Arena
+    date: November 2016
+    location: Poznań, Poland
+    www: http://gamearena.pl/
+    gallery: https://p1x.smugmug.com/P1X/Events/2016/Poznan-Game-Arena
+    description: More tanks. Our most complicated booth.
+
+  - name: Pyrkon
+    date: April 2016
+    location: Poznań, Poland
+    www: http://pyrkon.pl/
+    gallery: https://p1x.smugmug.com/P1X/Events/2016/Pyrkon/
+    description: We showed tanks.
+
+- title: 2015
+  events:
+  - name: Poznan Game Arena
+    date: November 2015
+    location: Poznań, Poland
+    www: http://gamearena.pl/
+    gallery: https://p1x.smugmug.com/P1X/Events/2015/Poznan-Game-Arena-Game-Industr
+    description: Our fist big event. We showed Tanks of Freedom to the mass crowds.
+
+  - name: Digital Dragons
+    date: May 2015
+    location: Krakow, Poland
+    www: http://digitaldragons.pl
+    gallery: https://p1x.smugmug.com/P1X/Events/2015/Digital-Dragons
+    description: In an old tram hangar.
+
+  - name: 4Developers
+    date: April 2015
+    location: Warsaw, Poland
+    www: http://keynotes.p1x.in/
+    gallery: https://p1x.smugmug.com/P1X/Events/2015/4Developers
+    description: Keynote
+
+- title: 2013
+  events:
+  - name: Pixel Heaven
+    date: June 2013
+    location: Warsaw, Poland
+    www: http://pixelheavenfest.com/
+    gallery: https://p1x.smugmug.com/P1X/Events/2014/Pixel-Heaven
+    description: Not yet as a P1X. First trade show. First Pixel Heaven. In the real basement with spiders and moisure. Lot of fun. This event started all of this.

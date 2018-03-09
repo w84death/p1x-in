@@ -1,0 +1,65 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+<aside>
+  <table class="dt">
+    <caption>Game details</caption>
+    <tr>
+      <th>Title</th>
+      <td>{{ page.title }}</td>
+      <td rowspan="6" class="cover">
+        <img src="/assets{{ page.url }}/cover.jpg" alt="Cover of {{ page.title }}" class="cover"/>
+      </td>
+    </tr>
+    <tr>
+      <th>Created</th>
+      <td>{{ page.created }}</td>
+    </tr>
+    <tr>
+      <th>Team</th>
+      <td>{{ page.team }}</td>
+    </tr>
+    <tr>
+      <th>Genre</th>
+      <td>{{ page.genre }}</td>
+    </tr>
+    <tr>
+      <th>Platforms</th>
+      <td>{{ page.platforms }}</td>
+    </tr>
+    <tr>
+      <th>Status</th>
+      <td>{{ page.status }}</td>
+    </tr>
+  </table>
+</aside>
+
+<h2>Description</h2>
+{{ content }}
+
+{% if page.screenshots %}
+<aside>  
+    <h2>Screenshots</h2>    
+    {% for scr in page.screenshots %}
+    <a href="/assets{{ page.url }}/{{ scr.big }}">
+      <img src="/assets{{ page.url }}/{{scr.small}}" alt="Screenshot from {{ page.title }}" class="thumb"/>
+      </a>
+    {% endfor %}
+</aside>
+{% endif %}
+
+{% if page.resources %}
+<aside>
+<h2>Resources</h2>
+  <table class="dt">
+    <caption>Learn more about the game.</caption>
+    {% for res in page.resources %}
+    <tr>
+      <th>{{ res.title }}</th>
+      <td><a href="{{ res.url }}">{{ res.humanUrl }}</a></td>
+    </tr>
+    {% endfor %}
+  </table>
+</aside>
+{% endif %}

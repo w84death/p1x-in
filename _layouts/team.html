@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+
+{{ content }}
+
+<div class="gallery">
+    <img src="/assets/team.jpg" alt="p1x photo"/>
+</div>
+
+{% for teams in site.data.members %}
+<h2>{{teams.status}}</h2>
+<div class="box">
+    {% for member in teams.team %}
+    <section class="item">
+        <h3>{{ member.name }}</h3>
+        <img src="/assets/members/{{ member.avatar }}" class="fr avatar" style="border-color:{{ member.color }};" alt="{{ member.name }} avatar"/>
+        <p>{{ member.desc }}</p>
+        <ul>
+            {% if member.www %}<li>www: <a href="http://{{ member.www }}">{{ member.www }}</a></li>{% endif %}
+            {% if member.soundcloud %}<li>soundcloud: <a href="https://soundcloud.com/{{ member.soundcloud }}">{{ member.soundcloud }}</a></li>{% endif %}
+            {% if member.twitter %}<li>twitter: <a href="https://twitter.com/{{ member.mail }}">{{ member.twitter }}</a></li>{% endif %}
+            {% if member.mail %}<li>mail: <a href="mailto:{{ member.mail }}">{{ member.mail }}</a></li>{% endif %}
+            {% if member.location %}<li>location: {{ member.location }}</li>{% endif %}
+        </ul>
+    </section>
+    {% endfor %}
+</div>
+{% endfor %}

@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+
+{{ content }}
+
+<div class="gallery">        
+    <img src="/assets/events/6.jpg" alt="photo"/>
+    <img src="/assets/events/5.jpg" alt="photo"/>
+    <img src="/assets/events/3.jpg" alt="photo"/>
+    <img src="/assets/events/2.jpg" alt="photo"/>
+    <img src="/assets/events/4.jpg" alt="photo"/>
+    <img src="/assets/events/1.jpg" alt="photo"/>
+</div>
+
+{% for events in site.data.events %}
+<h2 class="title">{{ events.title }}</h2>
+    <div class="box">
+        {% for event in events.events %}
+        <section class="item">
+            <h3>{{ event.name }}</h3>
+            <p>{{ event.date }} @ {{ event.location}}</p>
+            <p>{{ event.description }}</p>
+            {% if event.gallery %}
+            <p><a href="{{ event.gallery }}">Photos form event</a></p>
+            {% endif %}
+            <p><a href="{{ event.www }}">{{ event.www }}</a></p>
+        </section>
+        {% endfor %}
+    </div>
+{% endfor %}

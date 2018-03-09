@@ -1,0 +1,18 @@
+- name: Codename Dream
+  cart: dream
+  tagline: Free game engine / Tileset
+- name: Happy Little Island
+  cart: hli
+  tagline: Happy island full of life
+- name: Redhood
+  cart: redhood
+  tagline: Hangover Game Jam game
+- name: GrassLand
+  cart: grassland
+  tagline: Free tileset
+- name: Infinite
+  cart: infinite
+  tagline: Free tileset
+- name: CPULand
+  cart: cpuland
+  tagline: Free tileset

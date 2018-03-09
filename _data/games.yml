@@ -1,0 +1,125 @@
+- title: Flagship Games
+  games:
+  - name: Tanks of Freedom
+    url: tanks-of-freedom
+    tagline: Tanks. Lot of tanks.
+
+  - name: Boctok (Vostok)
+    url: boctok
+    tagline: Space.
+
+  - name: Rat is Fat
+    url: rat-is-fat
+    tagline: Fat rat.
+
+  - name: Bit Wars
+    url: bit-wars
+    tagline: Classic TBS with a twist!
+
+  - name: Poom
+    url: poom
+    tagline: Simple and fast platform game.
+
+  - name: Piradice
+    url: piradice
+    tagline: You know that the treasure is near.
+
+  - name: Office People
+    url: office-people
+    tagline: Irrational game about working in IT.
+
+  - name: Logic War
+    url: logic-war
+    tagline: Strategic twist on 2048 rules.
+
+  - name: Worm's Tale
+    url: worms-tale
+    tagline: Infinite and procedural world for one little worm.
+
+  - name: Dragon Vegetarian
+    url: dragon-vegetarian
+    tagline: First public game from P1X (kj)
+
+- title: Game Jams / Hackathons
+  games:
+  - name: Forgotten Island
+    url: forgotten-island
+    jam: Hangover Game Jam 2018
+    tagline: Adventure game made in LibreOffice.
+
+  - name: Slavs 990
+    url: slavs-990
+    jam: Slavic Game Jam 2016
+    tagline: Living in the 990 was hard for Slavs.
+
+  - name: Mornin' Fever
+    url: morning-fever
+    jam: Global Game Jam 2016
+    tagline: Łubudubu
+
+  - name: Sweet Comet
+    url: sweet-comet
+    jam: Hangover Game Jam 2016
+    tagline: PoC of particle systems in Godot Engine.
+
+  - name: Mountain of Hope
+    url: mountain-of-hope
+    jam: Teather Game Jam 2015
+    tagline: Janosik
+
+  - name: Tram I am
+    url: tram-i-am
+    jam: 0h Game Jam 2015
+    tagline: Organized by Sos in a real tram!
+
+  - name: Tribes Life
+    url: tribes-life
+    jam: js13k Compo 2016
+    tagline: Simulatioon
+
+  - name: You Are Bacteria
+    url: you-are-bacteria
+    jam: Ludum Dare 30
+    tagline: Microscopic Game Of Life
+
+  - name: Rathaus 3D
+    url: rathaus
+    jam: Pearson Hackathon 2014
+    tagline: Save the world carring only a rat.
+
+  - name: Tradeswoman Simulator
+    url: tradeswoman-simulator
+    jam: Pearson Hackathon 2013
+    tagline: You sell veggies and fruits.
+
+  - name: Brave Sir Robin
+    url: brave-sir-robin
+    jam: Global Game Jam 2014
+    tagline: Procedural generated dungeon crawler.
+
+  - name: CyberCab
+    url: cybercab
+    jam: Cyber Jam 2014
+    tagline: Futuristic Cab Simulator.
+
+- title: Prototypes
+  games:
+  - name: Assemby Cave
+    url: assembly-cave
+    tagline: Text Adventure
+
+  - name: Project Riese
+    url: project-riese
+    tagline: Platformer
+
+  - name: Workpol
+    url: workpol
+    tagline: Polish Worker Simulator.
+
+  - name: Stellar Tales
+    url: stellar-tales
+    tagline: Infinite and procedural space.
+
+  - name: Ansiture
+    url: ansiture
+    tagline: Story in ANSi Art

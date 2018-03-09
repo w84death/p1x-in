@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+
+{{ content }}
+
+<div class="gallery">
+    <img src="/assets/jams/4.jpg" alt="photo"/>
+    <img src="/assets/jams/2.jpg" alt="photo"/>
+    <img src="/assets/jams/6.jpg" alt="photo"/>
+    <img src="/assets/jams/1.jpg" alt="photo"/>
+    <img src="/assets/jams/5.jpg" alt="photo"/>
+    <img src="/assets/jams/3.jpg" alt="photo"/>
+</div>
+
+{% for jams in site.data.jams %}
+<h2 class="title">{{ jams.year }}</h2>
+<div class="box">
+    
+    {% for jam in jams.jams %}
+    <section class="item">
+        <h3>{{ jam.name }} {{ jam.year }}</h3>
+        <p>{{ jam.date }} @ {{ jam.location}}</p>
+        {% if jam.gallery %}
+        <p><a href="{{ jam.gallery }}">Photos form jam</a></p>
+        {% endif %}
+        <p><a href="{{ jam.www }}">{{ jam.www }}</a></p>
+        <ul>
+            <li>theme: "{{ jam.theme }}"</li>
+            <li>time: {{ jam.time }}</li>
+            <li>game we made: <a href="/games/{{ jam.game_url }}">{{ jam.game }}</a></li>
+        </ul>
+    </section>
+    {% endfor %}
+</div>
+{% endfor %}

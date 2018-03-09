@@ -1,0 +1,93 @@
+- year: Upcoming and Planned
+  jams:
+  - name: Global Game Jam
+    date: 26-28 Jan
+    location: Poznań, Poland
+    www: http://globalgamejam.org
+    theme: N/A
+    time: 48h
+    game: N/A
+
+- year: 2018
+  jams:
+  - name: Hangover Game Jam
+    date: 01 Jan
+    location: Global
+    www: http://hangverjam.p1x.in
+    theme: The Shortest Story
+    time: 24h
+    game: Forgotten Island
+    game_url: forgotten-island
+
+- year: 2017
+  jams:
+  - name: Global Game Jam
+    date: 20-22 Jan
+    location: Poznań, Poland
+    www: http://globalgamejam.org
+    theme: Waves
+    time: 48h
+    game: Boctok
+    game_url: boctok
+
+  - name: Hangover Game Jam
+    date: 01 Jan
+    location: Global
+    www: http://hangverjam.p1x.in
+    theme: Cure
+    time: 24h
+    game: Red Hood
+    game_url: red-hood
+
+- year: 2016
+  jams:
+  - name: Slavic Game Jam
+    date: 5-7 August
+    location: Warsaw, Poland
+    www: http://slavicgamejam.org
+    theme: 90
+    time: 48h
+    game: Slavs 990
+    game_url: slavs-990
+
+  - name: Global Game Jam
+    date: 29-31 Jan
+    location: Poznań, Poland
+    www: http://globalgamejam.org
+    gallery: https://p1x.smugmug.com/P1X/Game-Jams/2016/Global-Game-Jam
+    theme: Ritual
+    time: 48h
+    game: Mornin' Fever
+    game_url: mornin-fever
+
+- year: 2015
+  jams:
+  - name: Game Jam w Teatrze
+    date: 13-15 Oct
+    location: Poznań, Poland
+    www: http://jamwteatrze.pl/
+    gallery: https://p1x.smugmug.com/P1X/Game-Jams/2015/Teater-Game-Jam
+    theme: Wiara w pojednanie
+    time: 48h
+    game: Mountain of Hope
+    game_url: mountain-of-hope
+
+  - name: Slavic Game Jam
+    date: 24-26 July
+    location: Warsaw, Poland
+    www: http://slavicgamejam.org
+    gallery: https://p1x.smugmug.com/P1X/Game-Jams/2015/Slavic-Game-Jam-2015
+    theme: Just do it!
+    time: 48h
+    game: Rat is Fat
+    game_url: rat-is-fat
+
+  - name: Global Game Jam
+    date: 29-31 Jan
+    location: Poznań, Poland
+    www: http://globalgamejam.org
+    gallery: https://p1x.smugmug.com/P1X/Game-Jams/2015/Global-Game-Jam-2015-Pozna%C5%84
+    theme: What do we do now?
+    time: 48h
+    game: Tanks of Freedom
+    game_url: tanks-of-freedom

@@ -1,0 +1,11 @@
+<header {% if page.url != '/' %} class="sub" {% endif%}>
+  <h1 class="logo iblock">
+    <a href="{{site.path}}/index.html">
+      <img src="/assets/p1x_72x72.png" alt="{{ site.title }}" class="logo"/>
+    </a>
+  </h1>
+  <h2 class="banner">
+    Indie Game Developement Studio
+  </h2>
+  {% include nav.html %}
+</header>

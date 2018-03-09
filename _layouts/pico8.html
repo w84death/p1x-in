@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+{{ content }}
+
+<h2>Cartridges</h2>
+
+<div class="covers">
+    {% for game in site.data.pico8 %}
+    <section class="rect pico8 iblock">
+        <h3><img src="/assets/pico8/{{ game.cart }}.p8.png" alt="{{ game.name }}"/></a></h3>
+        <h4>{{ game.name }}</h4>
+        <p>{{ game.tagline }}</p>
+    </section>
+    {% endfor %}
+</div>

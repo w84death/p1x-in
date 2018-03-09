@@ -1,0 +1,49 @@
+- status: Core Team
+  team:
+  - name: Krzysztof Jankowski
+    avatar: w84death.jpg
+    www:   krzysztofjankowski.com
+    soundcloud: w84death
+    twitter: w84death
+    mail: kj@p1x.in
+    location: Poznań, Poland
+    desc: P1X Founder, Pixel Art, Game Design, Code
+    color: '#D2A89C'
+
+  - name: Wojciech Chojnacki
+    avatar: czlowiekimadlo.jpg 
+    twitter: czlowiekimadlo 
+    location: Poznań, Poland
+    desc: Game Design, Code
+    color: '#18AB1F'
+
+  - name: WrmZ / WermooZ
+    avatar: wrmz.jpg
+    mail: p.weremczuk@gmail
+    location: Poznań, Poland
+    desc: Game Design, Code
+    color: '#000000'
+
+  - name: QmYaan / Grand Beats
+    avatar: grandbeats.jpg
+    www: grandbeats.com
+    desc: Music, Sound FX
+    color: '#D7BB96'
+
+- status: Colaboration
+  team:
+  - name: Mathias Nova
+    avatar: mathiasnova.jpg
+    www: mathiasnova.blogspot.com
+    soundcloud: mathiasnova
+    twitter: mathiasnova
+    desc: Music
+    color: '#7DC09D'
+
+  - name: Rezoner
+    avatar: rezoner.jpg
+    www: rezoner.net
+    soundcloud: rezoner
+    twitter: rezoner
+    desc: Music
+    color: '#AD22F7'

@@ -1,0 +1,10 @@
+<div class="post-more">
+  <h3>Latest posts:</h3>
+  <ul class="news">
+   {% for post in site.posts limit:3 %}
+    <li><a href="{{site.path}}{{post.url}}">{{ post.title }}</a></li>
+   {% else %}
+       There are no items!
+   {% endfor %}
+  </ul>
+</div>

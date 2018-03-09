@@ -1,0 +1,27 @@
+title: P1X
+email: kj@p1x.in
+description: >
+  We are making games in our free time. Becose we love to. We are a true independent studio.
+baseurl: ""
+url: "http://p1x.in"
+twitter_username: w84death
+github_username:  w84death
+permalink: /404.html
+
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README
+  - ci.sh
+
+safe: true
+lsi: false
+
+collections:
+  games:
+    output: true
+    permalink: /:collection/:name
