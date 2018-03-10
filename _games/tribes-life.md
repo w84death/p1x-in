@@ -20,6 +20,10 @@ resources:
     url: https://github.com/w84death/TribesLife
     humanUrl: github.com/w84death/TribesLife
 
+  - title: Video
+    url: https://www.youtube.com/watch?v=Nk8hnHhAgjY
+    humanUrl: youtube.com/watch?v=Nk8hnHhAgjY
+
 ---
 
 Game for the js13k compo.

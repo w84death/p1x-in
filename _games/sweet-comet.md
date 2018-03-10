@@ -25,6 +25,10 @@ resources:
     url: https://github.com/w84death/Sweet-Comet
     humanUrl: github.com/w84death/Sweet-Comet
 
+  - title: Video
+    url: https://www.youtube.com/watch?v=gboADheWx1E
+    humanUrl: youtube.com/watch?v=gboADheWx1E
+
 ---
 
 Hangover Game Jam

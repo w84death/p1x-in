@@ -30,6 +30,10 @@ resources:
     url: https://github.com/w84death/slavs-990
     humanUrl: github.com/w84death/slavs-990
 
+  - title: Video
+    url: https://www.youtube.com/watch?v=prXlvNomtJ4
+    humanUrl: youtube.com/watch?v=prXlvNomtJ4
+
 ---
 
 Living in the 990 was hard for Slavs. Take charge of your settlement, send party of warriors into the wild to fight off wild animals, strange creatures and help villagers. Gather resources and sacrifice them to your pagan gods to gain their blessings for your tribe.

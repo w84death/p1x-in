@@ -23,6 +23,10 @@ resources:
     url: https://github.com/w84death/mountain-of-hope
     humanUrl: github.com/w84death/mountain-of-hope
 
+  - title: Video
+    url: https://www.youtube.com/watch?v=ANDBM_jmRC0
+    humanUrl: youtube.com/watch?v=ANDBM_jmRC0
+
 ---
 
 Teather Game Jam 2015 (GIC/PGA)
