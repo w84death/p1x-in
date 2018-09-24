@@ -1,15 +1,23 @@
 - year: Upcoming and Planned
   jams:
-  - name: Global Game Jam
-    date: 26-28 Jan
-    location: Poznań, Poland
-    www: http://globalgamejam.org
+  - name: Hangover Game Jam
+    date: 01 Jan
+    location: Global
+    www: http://hangverjam.p1x.in
     theme: N/A
-    time: 48h
+    time: 24h
     game: N/A
 
 - year: 2018
   jams:
+  - name: Global Game Jam
+    date: 26-28 Jan
+    location: Poznań, Poland
+    www: http://globalgamejam.org
+    theme: Waves
+    time: 48h
+    game: Tesla Transmission
+
   - name: Hangover Game Jam
     date: 01 Jan
     location: Global

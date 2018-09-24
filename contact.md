@@ -13,7 +13,7 @@ resources:
     url: https://mastodon.social/@w84death
     humanUrl: "@w84death"
   - title: itch.io
-    url: https://w84death.itch.io/  
+    url: https://w84death.itch.io/
     humanUrl: "P1X"
 ---
 
@@ -24,3 +24,8 @@ Feel free to contact us on any topic.
 Preffered and simpliest way of contacting is by email:
 
 - [kj@p1x.in](mailto:kj@p1x.in)
+
+### Discord
+Join our Discord server. We're there all the time. It's the preffered way to voice-call or just to hang out with us.
+
+- [join link](https://discord.gg/bBdvyut)

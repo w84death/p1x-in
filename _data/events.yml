@@ -1,11 +1,26 @@
 - title: Upcoming and Planned
   events:
+  - name: Poznan Game Arena
+    date: November 2018
+    location: Poznań, Poland
+    www: http://gamearena.pl/
+    gallery:
+    description: Another year, another indie arcade fun!
+  - name: Pyrkon
+    date: May 2018
+    location: Poznań, Poland
+    www: https://pyrkon.pl
+    gallery:
+    description: A place for all kind of gamers.
+
+- title: 2018
+  events:
   - name: FOSDEM && GODOTCON
     date: February 2018
     location: Brussels, Belgium
     www: https://fosdem.org/2018/
     gallery:
-    description: We will be visiting this awesome events.
+    description: Best place in the world for hackers! 
 
 - title: 2017
   events:
