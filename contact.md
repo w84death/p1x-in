@@ -23,7 +23,7 @@ Feel free to contact us on any topic.
 ### Mail
 Preffered and simpliest way of contacting is by email:
 
-- [kj@p1x.in](mailto:kj@p1x.in)
+- [hello@p1x.in](mailto:hello@p1x.in)
 
 ### Discord
 Join our Discord server. We're there all the time. It's the preffered way to voice-call or just to hang out with us.

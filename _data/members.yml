@@ -11,27 +11,36 @@
     color: '#D2A89C'
 
   - name: Wojciech Chojnacki
-    avatar: czlowiekimadlo.jpg 
-    twitter: czlowiekimadlo 
+    avatar: czlowiekimadlo.jpg
+    twitter: czlowiekimadlo
     location: Poznań, Poland
     desc: Game Design, Code
     color: '#18AB1F'
 
-  - name: WrmZ / WermooZ
+  - name: Paweł Weremczuk
     avatar: wrmz.jpg
-    mail: p.weremczuk@gmail
+    mail: p.weremczuk@gmail.com
     location: Poznań, Poland
     desc: Game Design, Code
     color: '#000000'
 
+  - name: Mitchell Maurycy Echevarria Motola
+    avatar: mauryc.jpg
+    www: mitchellechevarria.wixsite.com/mauryc
+    soundcloud: mau-rycy
+    mail: mitchellechevarria@gmail.com
+    location: London, Great Britain
+    desc: 3D
+    color: '#000000'
+
+- status: Colaboration
+  team:
   - name: QmYaan / Grand Beats
     avatar: grandbeats.jpg
     www: grandbeats.com
     desc: Music, Sound FX
     color: '#D7BB96'
 
-- status: Colaboration
-  team:
   - name: Mathias Nova
     avatar: mathiasnova.jpg
     www: mathiasnova.blogspot.com

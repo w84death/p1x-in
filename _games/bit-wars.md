@@ -11,7 +11,7 @@ status: gold
 screenshots:
   - small: screen1_thumb.jpg
     big: screen1.png
-  
+
   - small: screen2_thumb.jpg
     big: screen2.png
 
@@ -19,6 +19,10 @@ screenshots:
     big: screen3.png
 
 resources:
+  - title: Play here
+    url: https://bitwars.p1x.in
+    humanUrl: bitwars.p1x.in
+
   - title: itch.io Store Page
     url: https://w84death.itch.io/bit-wars
     humanUrl: w84death.itch.io/bit-wars

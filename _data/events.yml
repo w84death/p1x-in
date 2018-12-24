@@ -1,10 +1,19 @@
 - title: Upcoming and Planned
   events:
+  - name: FOSDEM
+    date: February 2019
+    location: Brussels, Belgium
+    www: https://fosdem.org/2019/
+    gallery:
+    description:
+
+- title: 2018
+  events:
   - name: Poznan Game Arena
     date: November 2018
     location: Poznań, Poland
     www: http://gamearena.pl/
-    gallery:
+    gallery: http://pga.p1x.in/2018/
     description: Another year, another indie arcade fun!
   - name: Pyrkon
     date: May 2018
@@ -12,15 +21,12 @@
     www: https://pyrkon.pl
     gallery:
     description: A place for all kind of gamers.
-
-- title: 2018
-  events:
   - name: FOSDEM && GODOTCON
     date: February 2018
     location: Brussels, Belgium
     www: https://fosdem.org/2018/
     gallery:
-    description: Best place in the world for hackers! 
+    description: Best place in the world for hackers!
 
 - title: 2017
   events:

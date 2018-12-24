@@ -11,7 +11,7 @@ status: gold
 screenshots:
   - small: screen1_thumb.jpg
     big: screen1.png
-  
+
   - small: screen2_thumb.jpg
     big: screen2.png
 
@@ -22,6 +22,10 @@ screenshots:
     big: screen4.png
 
 resources:
+  - title: Play here
+    url: https://piradice.p1x.in
+    humanUrl: piradice.p1x.in
+
   - title: itch.io Store Page
     url: https://w84death.itch.io/piradice
     humanUrl: w84death.itch.io/piradice

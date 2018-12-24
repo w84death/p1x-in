@@ -11,7 +11,7 @@ status: gold
 screenshots:
   - small: screen1_thumb.jpg
     big: screen1.jpg
-  
+
   - small: screen2_thumb.jpg
     big: screen2.jpg
 
@@ -19,6 +19,10 @@ screenshots:
     big: screen3.jpg
 
 resources:
+  - title: Play here
+    url: https://poom.p1x.in
+    humanUrl: poom.p1x.in
+
   - title: GameJolt
     url: http://gamejolt.com/games/poom/21333
     humanUrl: gamejolt.com/games/poom/21333
