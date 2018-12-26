@@ -27,6 +27,9 @@ First ever 3D printed, [open source Swiatowid model](https://www.thingiverse.com
 
 You can print it and have on your shelf or desk. Put it in the flower plant. Imagine you encounter this monument while on trip thru the forest.
 
+
+Read more about this slavic monument at [Zbruch_Idol, Wikipedia](https://en.wikipedia.org/wiki/Zbruch_Idol).
+
 Model by **Mau Ryc/P1X**, test prints by **kj/P1X**.
 
 Used software:
