@@ -5,7 +5,7 @@ layout: default
 
 {{ content }}
 
-<div class="gallery">        
+<div class="gallery">
     <img src="/assets/events/6.jpg" alt="photo"/>
     <img src="/assets/events/5.jpg" alt="photo"/>
     <img src="/assets/events/3.jpg" alt="photo"/>
@@ -13,6 +13,12 @@ layout: default
     <img src="/assets/events/4.jpg" alt="photo"/>
     <img src="/assets/events/1.jpg" alt="photo"/>
 </div>
+
+<h2>Reports</h2>
+<ul>
+    <li><a href="https://pga.p1x.in/2018/">Poznan Game Arena 2018</li>
+    <li><a href="https://pga.p1x.in/2015/">Poznan Game Arena 2015</li>
+</ul>
 
 {% for events in site.data.events %}
 <h2 class="title">{{ events.title }}</h2>
