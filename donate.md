@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Donate
-permalink: /donate/
+permalink: /about/donate/
+exclude: true
 resources:
   - title: itch.io
     url: https://w84death.itch.io/

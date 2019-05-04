@@ -1,5 +1,14 @@
 - title: Upcoming and Planned
   events:
+  - name: Poznan Game Arena
+    date: November 2019
+    location: Poznań, Poland
+    www: http://gamearena.pl/
+    gallery:
+    description:
+
+- title: 2019
+  events:
   - name: FOSDEM
     date: February 2019
     location: Brussels, Belgium

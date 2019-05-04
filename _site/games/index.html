@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Games | P1X</title>
+    <style>
+      body {min-width:320px; font-family:'Open Sans', sans-serif; font-size:16px; background-color:#f8f8f8;}
+      main {max-width:960px; margin:30px auto;}
+      main > article {width:768px; margin:0 auto;}
+      header, footer {text-align:center;}
+      footer {min-height:60px; margin-top:64px;}
+      section + section {margin-top:32px; padding-top:32px; border-top:1px solid #ccc;}
+      h1 {margin:0; padding:0; font-size:xx-large;}
+      h2, h3 {color:#345;}
+      p, li {color:#444;}
+
+      .menu {text-transform: uppercase;}
+      .menu a:last-child {margin-left:0;}
+      .menu li {height:42px; white-space: nowrap;}
+      .menu a {display:inline-block; position:relative; padding:10px; outline: 0; transition:all 0.1s ease-in-out;
+          font-size:12px;	text-decoration:none; font-weight:900; border:1px solid #ccc;
+          background-color:#fff; color:#000; border-bottom:4px solid #444; border-radius:0 0 2px 2px;}
+      .menu a:hover {color:#1f99c1;}
+      .menu a:active {transform: translateY(2px); background-color:#f8f8f8; border-bottom-width:1px;}
+
+      article > h1 {margin-bottom:0.5em;}
+
+      .iblock {display:inline-block;}
+      .tar {text-align:right;}
+      .fr {float:right;}
+      .banner {padding:4px 8px; border-bottom:1px solid #ccc; color:#888; font-size:24px; font-weight:100;}
+      .box {border-left:1px solid #ccc; padding:32px;}
+      .item+.item, .box+.box {margin-top:64px;}
+      .sub .logo {float:left; background-color:#f8f8f8; padding-right:24px;}
+      .reimg {width:40%; max-width:400px;}
+      .image {padding:32px;}
+      .small {font-size:smaller;}
+      .center {text-align:center;}
+
+      img.thumb {width:160px; height:160px;}
+      img.cover {width:180px; height:254px;}
+      img.logo,
+      .logo a {width:72px; height:72px; display:block;}
+
+      .covers {text-align:center;}
+      .covers .rect {padding:8px 14px; color:#345; background-color:#fff;
+          font-weight:900; font-size:12px; text-decoration:none; margin:0 8px 8px 0;
+          border:1px solid #ccc;border-bottom:2px solid #345; border-right:1px solid #345;}
+      .covers .rect { width:180px; height:335px; padding:0; margin:10px; vertical-align:top; line-height:1.5em;}
+      .covers .game h3, .covers .game h4 {margin:0;}
+      .covers .game p {padding:0 1em;}
+      .covers .game h3 {position:relative; width:180px; height:254px;}
+      .covers .game h3:after {position:absolute; top:0; left:0;  display:block;
+          width:180px; height:254px; content:'';
+          background-image: -webkit-linear-gradient(rgba(255,255,255, 0) 85%, rgba(255,255,255,1) 100%);
+          background-image: -moz-linear-gradient(rgba(255,255,255, 0) 85%, rgba(255,255,255,1) 100%);
+          background-image: -o-linear-gradient(rgba(255,255,255, 0) 85%, rgba(255,255,255,1) 100%);
+          background-image: linear-gradient(rgba(255,255,255, 0) 85%, rgba(255,255,255,1) 100%);}
+      .covers .game {width:180px; height:335px; padding:0;}
+      .covers .game a {display:block; text-decoration:none;}
+      .covers .game a h4 {text-decoration:underline;}
+
+      .dt {padding:1em 2em;}
+      .dt, .dt caption {border:1px solid #ccc;  background-color:#fff;}
+      .dt caption {margin-bottom:0.5em; padding:0.5em;}
+      .dt th {text-align:right; padding:0.5em 2em; white-space:nowrap;}
+      .dt td {border-bottom:1px solid #eee; padding:0 1em;}
+      .dt .cover {border:none;}
+      .dt tr:nth-child(2n+1) th {background-color:#f8f8f8;}
+      .dt td a {display:block;}
+      .dt tr:hover td {background-color:#f8f8f8;}
+    </style>
+    <link rel="icon" href="/favicon.png" />
+    <!-- NSA -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="//matomo.p1x.in/";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', '4']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End NSA Code -->
+
+  </head>
+  <body>
+    <main id="container" tabindex="-1">
+      <header  class="sub" >
+  <h1 class="logo iblock">
+    <a href="/index.html">
+      <img src="/assets/p1x_72x72.png" alt="P1X" class="logo"/>
+    </a>
+  </h1>
+  <h2 class="banner">
+    Indie Game Developement Studio
+  </h2>
+  <nav class="menu">
+    <ul>
+    
+        
+            
+        
+    
+        
+            
+                <li class="iblock"><a href="/about/">About Us</a></li>
+            
+        
+    
+        
+            
+                <li class="iblock"><a href="/contact/">Contact</a></li>
+            
+        
+    
+        
+    
+        
+            
+                <li class="iblock"><a href="/events/">Events</a></li>
+            
+        
+    
+        
+            
+                <li class="iblock"><a href="/games/">Games</a></li>
+            
+        
+    
+        
+            
+        
+    
+        
+            
+                <li class="iblock"><a href="/jams/">Jams</a></li>
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+                <li class="iblock"><a href="/wild/">Wild</a></li>
+            
+        
+    
+        
+            
+        
+    
+    </ul>
+</nav>
+
+</header>
+
+      <article>
+        <h1>Games</h1>
+    
+<p>Games we created so far. Each game is free (as in beer) and <a href="https://github.com/w84death">open-source</a>. We never put any advertising nor IAP in our games.</p>
+
+<p>We made them because is’t our hobby not a job. If you like what we made and want to support us check <a href="/donate">donation page</a>.</p>
+
+
+
+<h2 class="title">Flagship Games</h2>
+<div class="covers">
+    
+    <div class="rect game iblock">
+        <a href="/games/tanks-of-freedom">
+            <h3>
+                <img src="/assets/games/tanks-of-freedom/cover.jpg" alt="Tanks of Freedom" class="cover"/>
+            </h4>
+            <h4>Tanks of Freedom</h4>
+            <p>Tanks. Lot of tanks.</p>
+        </a>
+    </div>
+    
+    <div class="rect game iblock">
+        <a href="/games/boctok">
+            <h3>
+                <img src="/assets/games/boctok/cover.jpg" alt="Boctok (Vostok)" class="cover"/>
+            </h4>
+            <h4>Boctok (Vostok)</h4>
+            <p>Space.</p>
+        </a>
+    </div>
+    
+    <div class="rect game iblock">
+        <a href="/games/rat-is-fat">
+            <h3>
+                <img src="/assets/games/rat-is-fat/cover.jpg" alt="Rat is Fat" class="cover"/>
+            </h4>
+            <h4>Rat is Fat</h4>
+            <p>Fat rat.</p>
+        </a>
+    </div>
+    
+    <div class="rect game iblock">
+        <a href="/games/bit-wars">
+            <h3>
+                <img src="/assets/games/bit-wars/cover.jpg" alt="Bit Wars" class="cover"/>
+            </h4>
+            <h4>Bit Wars</h4>
+            <p>Classic TBS with a twist!</p>
+        </a>
+    </div>
+    
+    <div class="rect game iblock">
+        <a href="/games/poom">
+            <h3>
+                <img src="/assets/games/poom/cover.jpg" alt="Poom" class="cover"/>
+            </h4>
+            <h4>Poom</h4>
+            <p>Simple and fast platform game.</p>
+        </a>
+    </div>
+    
+    <div class="rect game iblock">
+        <a href="/games/piradice">
+            <h3>
+                <img src="/assets/games/piradice/cover.jpg" alt="Piradice" class="cover"/>
+            </h4>
+            <h4>Piradice</h4>
+            <p>You know that the treasure is near.</p>
+        </a>
+    </div>
+    
+    <div class="rect game iblock">
+        <a href="/games/office-people">
+            <h3>
+                <img src="/assets/games/office-people/cover.jpg" alt="Office People" class="cover"/>
+            </h4>
+            <h4>Office People</h4>
+            <p>Irrational game about working in IT.</p>
+        </a>
+    </div>
+    
+    <div class="rect game iblock">
+        <a href="/games/logic-war">
+            <h3>
+                <img src="/assets/games/logic-war/cover.jpg" alt="Logic War" class="cover"/>
+            </h4>
+            <h4>Logic War</h4>
+            <p>Strategic twist on 2048 rules.</p>
+        </a>
+    </div>
+    
+    <div class="rect game iblock">
+        <a href="/games/worms-tale">
+            <h3>
+                <img src="/assets/games/worms-tale/cover.jpg" alt="Worm's Tale" class="cover"/>
+            </h4>
+            <h4>Worm's Tale</h4>
+            <p>Infinite and procedural world for one little worm.</p>
+        </a>
+    </div>
+    
+    <div class="rect game iblock">
+        <a href="/games/dragon-vegetarian">
+            <h3>
+                <img src="/assets/games/dragon-vegetarian/cover.jpg" alt="Dragon Vegetarian" class="cover"/>
+            </h4>
+            <h4>Dragon Vegetarian</h4>
+            <p>First public game from P1X (kj)</p>
+        </a>
+    </div>
+    
+</div>
+
+<h2 class="title">Game Jams / Hackathons</h2>
+<div class="covers">
+    
+    <div class="rect game iblock">
+        <a href="/games/forgotten-island">
+            <h3>
+                <img src="/assets/games/forgotten-island/cover.jpg" alt="Forgotten Island" class="cover"/>
+            </h4>
+            <h4>Forgotten Island</h4>
+            <p>Adventure game made in LibreOffice.</p>
+        </a>
+    </div>
+    
+    <div class="rect game iblock">
+        <a href="/games/slavs-990">
+            <h3>
+                <img src="/assets/games/slavs-990/cover.jpg" alt="Slavs 990" class="cover"/>
+            </h4>
+            <h4>Slavs 990</h4>
+            <p>Living in the 990 was hard for Slavs.</p>
+        </a>
+    </div>
+    
+    <div class="rect game iblock">
+        <a href="/games/morning-fever">
+            <h3>
+                <img src="/assets/games/morning-fever/cover.jpg" alt="Mornin' Fever" class="cover"/>
+            </h4>
+            <h4>Mornin' Fever</h4>
+            <p>Łubudubu</p>
+        </a>
+    </div>
+    
+    <div class="rect game iblock">
+        <a href="/games/sweet-comet">
+            <h3>
+                <img src="/assets/games/sweet-comet/cover.jpg" alt="Sweet Comet" class="cover"/>
+            </h4>
+            <h4>Sweet Comet</h4>
+            <p>PoC of particle systems in Godot Engine.</p>
+        </a>
+    </div>
+    
+    <div class="rect game iblock">
+        <a href="/games/mountain-of-hope">
+            <h3>
+                <img src="/assets/games/mountain-of-hope/cover.jpg" alt="Mountain of Hope" class="cover"/>
+            </h4>
+            <h4>Mountain of Hope</h4>
+            <p>Janosik</p>
+        </a>
+    </div>
+    
+    <div class="rect game iblock">
+        <a href="/games/tram-i-am">
+            <h3>
+                <img src="/assets/games/tram-i-am/cover.jpg" alt="Tram I am" class="cover"/>
+            </h4>
+            <h4>Tram I am</h4>
+            <p>Organized by Sos in a real tram!</p>
+        </a>
+    </div>
+    
+    <div class="rect game iblock">
+        <a href="/games/tribes-life">
+            <h3>
+                <img src="/assets/games/tribes-life/cover.jpg" alt="Tribes Life" class="cover"/>
+            </h4>
+            <h4>Tribes Life</h4>
+            <p>Simulatioon</p>
+        </a>
+    </div>
+    
+    <div class="rect game iblock">
+        <a href="/games/you-are-bacteria">
+            <h3>
+                <img src="/assets/games/you-are-bacteria/cover.jpg" alt="You Are Bacteria" class="cover"/>
+            </h4>
+            <h4>You Are Bacteria</h4>
+            <p>Microscopic Game Of Life</p>
+        </a>
+    </div>
+    
+    <div class="rect game iblock">
+        <a href="/games/rathaus">
+            <h3>
+                <img src="/assets/games/rathaus/cover.jpg" alt="Rathaus 3D" class="cover"/>
+            </h4>
+            <h4>Rathaus 3D</h4>
+            <p>Save the world carring only a rat.</p>
+        </a>
+    </div>
+    
+    <div class="rect game iblock">
+        <a href="/games/tradeswoman-simulator">
+            <h3>
+                <img src="/assets/games/tradeswoman-simulator/cover.jpg" alt="Tradeswoman Simulator" class="cover"/>
+            </h4>
+            <h4>Tradeswoman Simulator</h4>
+            <p>You sell veggies and fruits.</p>
+        </a>
+    </div>
+    
+    <div class="rect game iblock">
+        <a href="/games/brave-sir-robin">
+            <h3>
+                <img src="/assets/games/brave-sir-robin/cover.jpg" alt="Brave Sir Robin" class="cover"/>
+            </h4>
+            <h4>Brave Sir Robin</h4>
+            <p>Procedural generated dungeon crawler.</p>
+        </a>
+    </div>
+    
+    <div class="rect game iblock">
+        <a href="/games/cybercab">
+            <h3>
+                <img src="/assets/games/cybercab/cover.jpg" alt="CyberCab" class="cover"/>
+            </h4>
+            <h4>CyberCab</h4>
+            <p>Futuristic Cab Simulator.</p>
+        </a>
+    </div>
+    
+</div>
+
+<h2 class="title">Prototypes</h2>
+<div class="covers">
+    
+    <div class="rect game iblock">
+        <a href="/games/assembly-cave">
+            <h3>
+                <img src="/assets/games/assembly-cave/cover.jpg" alt="Assemby Cave" class="cover"/>
+            </h4>
+            <h4>Assemby Cave</h4>
+            <p>Text Adventure</p>
+        </a>
+    </div>
+    
+    <div class="rect game iblock">
+        <a href="/games/project-riese">
+            <h3>
+                <img src="/assets/games/project-riese/cover.jpg" alt="Project Riese" class="cover"/>
+            </h4>
+            <h4>Project Riese</h4>
+            <p>Platformer</p>
+        </a>
+    </div>
+    
+    <div class="rect game iblock">
+        <a href="/games/workpol">
+            <h3>
+                <img src="/assets/games/workpol/cover.jpg" alt="Workpol" class="cover"/>
+            </h4>
+            <h4>Workpol</h4>
+            <p>Polish Worker Simulator.</p>
+        </a>
+    </div>
+    
+    <div class="rect game iblock">
+        <a href="/games/stellar-tales">
+            <h3>
+                <img src="/assets/games/stellar-tales/cover.jpg" alt="Stellar Tales" class="cover"/>
+            </h4>
+            <h4>Stellar Tales</h4>
+            <p>Infinite and procedural space.</p>
+        </a>
+    </div>
+    
+    <div class="rect game iblock">
+        <a href="/games/ansiture">
+            <h3>
+                <img src="/assets/games/ansiture/cover.jpg" alt="Ansiture" class="cover"/>
+            </h4>
+            <h4>Ansiture</h4>
+            <p>Story in ANSi Art</p>
+        </a>
+    </div>
+    
+</div>
+
+      </article>
+
+      <footer>
+    
+    <div>
+        <p><a href="/contact">contact information</a></p>
+    </div>
+    
+    <div class="small">
+        Powered by Jekyll/Apache2, runs on Debian @ IBM x3250
+    </div>
+    <div>
+        &copy; 2014-2019 P1X
+    </div>
+</footer>
+
+    </main>
+  </body>
+</html>
+
+</article>

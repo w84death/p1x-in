@@ -28,4 +28,4 @@ Preffered and simpliest way of contacting is by email:
 ### Discord
 Join our Discord server. We're there all the time. It's the preffered way to voice-call or just to hang out with us.
 
-- [join link](https://discord.gg/bBdvyut)
+- [invitation link](https://discord.gg/bBdvyut)

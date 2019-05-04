@@ -1,9 +1,11 @@
 <nav class="menu">
     <ul>
     {% for page in site.pages %}
-        {% if page.title %}
-            <li class="iblock"><a href="{{ page.url }}">{{page.title}}</a></li>
-        {% endif %}
+        {% unless page.exclude %}
+            {% if page.title %}
+                <li class="iblock"><a href="{{ page.url }}">{{page.title}}</a></li>
+            {% endif %}
+        {% endunless %}
     {% endfor %}
     </ul>
 </nav>

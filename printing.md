@@ -1,7 +1,8 @@
 ---
 layout: page
 title: 3D Printing
-permalink: /3dprinting/
+permalink: /wild/3dprinting/
+exclude: true
 resources:
   - title: Thingiverse
     url: https://www.thingiverse.com/w84death/designs

@@ -1,10 +1,11 @@
 ---
 layout: pico8
 title: Pico-8
-permalink: /pico8/
+permalink: /wild/pico8/
+exclude: true
 ---
 
-Pico-8 is a [fantasy console](https://www.lexaloffle.com/pico-8.php?page=faq). But on our computers it's real and is super cool. 
+Pico-8 is a [fantasy console](https://www.lexaloffle.com/pico-8.php?page=faq). But on our computers it's real and is super cool.
 
 ### Beast
 - 128x128 16 colours

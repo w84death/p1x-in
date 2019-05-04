@@ -1,12 +1,20 @@
-- year: Upcoming and Planned
+- year: 2019
   jams:
+  - name: Global Game Jam
+    date: 26-28 Jan
+    location: Poznań, Poland
+    www: http://globalgamejam.org
+    theme: What Home Means To You
+    time: 48h
+    game: Letniskowiec
+
   - name: Hangover Game Jam
     date: 01 Jan
     location: Global
-    www: http://hangverjam.p1x.in
-    theme: N/A
+    www: https://hangoverjam.p1x.in/
+    theme: Elephant In The Room
     time: 24h
-    game: N/A
+    game: The Elephant
 
 - year: 2018
   jams:
@@ -21,7 +29,7 @@
   - name: Hangover Game Jam
     date: 01 Jan
     location: Global
-    www: http://hangverjam.p1x.in
+    www: https://hangoverjam.p1x.in/
     theme: The Shortest Story
     time: 24h
     game: Forgotten Island
@@ -41,7 +49,7 @@
   - name: Hangover Game Jam
     date: 01 Jan
     location: Global
-    www: http://hangverjam.p1x.in
+    www: https://hangoverjam.p1x.in/
     theme: Cure
     time: 24h
     game: Red Hood
