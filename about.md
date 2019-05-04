@@ -3,12 +3,15 @@ layout: page
 title: About Us
 permalink: /about/
 resources:
-  - title: Team
+  - title: People behind P1X
     url: /about/team
-    humanUrl: Read more about each of us
+    humanUrl: Read more about core and collaboration members
   - title: Donate
     url: /about/donate
     humanUrl: Support our work
+  - title: Join!
+    url: /contact
+    humanUrl: We are still growing! Contact us
 ---
 
 P1X was founded in 2014 as a one man game development studio. Now after 5 years and a [lots of games](/games/) later the team has grown to four core members.

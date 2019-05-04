@@ -11,7 +11,7 @@ layout: default
     {% for member in teams.team %}
     <section class="item">
         <h3>{{ member.name }}</h3>
-        <img src="/assets/members/{{ member.avatar }}" class="fr avatar" style="border-color:{{ member.color }};" alt="{{ member.name }} avatar"/>
+        {% if member.avatar %}<img src="/assets/members/{{ member.avatar }}" class="fr avatar" style="border-color:{{ member.color }};" alt="{{ member.name }} avatar"/>{% endif %}
         <p>{{ member.desc }}</p>
         <ul>
             {% if member.www %}<li>www: <a href="http://{{ member.www }}">{{ member.www }}</a></li>{% endif %}

@@ -35,6 +35,12 @@
 
 - status: Colaboration
   team:
+  - name: Mirek Harenda
+    mail: mirek.harenda@gmail.com
+    www: soundcloud.com/mirek-harenda
+    desc: Music
+    color: '#000000'
+
   - name: QmYaan / Grand Beats
     avatar: grandbeats.jpg
     www: grandbeats.com
