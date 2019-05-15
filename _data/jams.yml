@@ -1,5 +1,12 @@
 - year: 2019
   jams:
+  - name: Slavic Game Jam
+    date: 18-21 July
+    location: Warsaw, Poland
+    www: http://slavicgamejam.org
+    theme: TBA
+    time: 48h
+    game: TBA
   - name: Global Game Jam
     date: 26-28 Jan
     location: Poznań, Poland
