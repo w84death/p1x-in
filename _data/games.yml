@@ -4,13 +4,17 @@
     url: tanks-of-freedom
     tagline: Tanks. Lot of tanks.
 
-  - name: Boctok (Vostok)
-    url: boctok
-    tagline: Space.
-
   - name: Rat is Fat
     url: rat-is-fat
     tagline: Fat rat.
+
+  - name: Life is Short
+    url: life-is-short
+    tagline: Pure arcade fun.
+
+  - name: Boctok (Vostok)
+    url: boctok
+    tagline: Space.
 
   - name: Bit Wars
     url: bit-wars

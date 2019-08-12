@@ -1,12 +1,23 @@
+- year: Upcoming
+  jams:
+  - name: Hangover Game Jam
+    date: 01 Jan
+    location: Global
+    www: https://hangoverjam.p1x.in/
+    theme: TBA
+    time: 24h
+
 - year: 2019
   jams:
   - name: Slavic Game Jam
     date: 18-21 July
     location: Warsaw, Poland
     www: http://slavicgamejam.org
-    theme: TBA
+    theme: Growth
     time: 48h
-    game: TBA
+    game: Life is Short
+    game_url: life-is-short
+
   - name: Global Game Jam
     date: 26-28 Jan
     location: Poznań, Poland
