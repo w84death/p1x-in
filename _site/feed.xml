@@ -1,10 +1,2 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-<generator uri="http://jekyllrb.com" version="3.8.3">Jekyll</generator>
-<link href="http://p1x.in/feed.xml" rel="self" type="application/atom+xml" />
-<link href="http://p1x.in/" rel="alternate" type="text/html" />
-<updated>2019-08-12T21:01:07+02:00</updated>
-<id>http://p1x.in/</id>
-<subtitle>We are making games in our free time. Becose we love to. We are a true independent studio.
-</subtitle>
-</feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://p1x.in/feed.xml" rel="self" type="application/atom+xml" /><link href="http://p1x.in/" rel="alternate" type="text/html" /><updated>2019-10-22T21:13:04+02:00</updated><id>http://p1x.in/feed.xml</id><title type="html">P1X</title><subtitle>We are a true independent studio that makes free and open-source games.
+</subtitle></feed>

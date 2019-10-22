@@ -8,9 +8,9 @@
     url: rat-is-fat
     tagline: Fat rat.
 
-  - name: Life is Short
-    url: life-is-short
-    tagline: Pure arcade fun.
+  - name: Paradise Volley
+    url: paradise-volley
+    tagline: Volleyball without rules.
 
   - name: Boctok (Vostok)
     url: boctok
@@ -20,32 +20,20 @@
     url: bit-wars
     tagline: Classic TBS with a twist!
 
-  - name: Poom
-    url: poom
-    tagline: Simple and fast platform game.
-
   - name: Piradice
     url: piradice
     tagline: You know that the treasure is near.
 
-  - name: Office People
-    url: office-people
-    tagline: Irrational game about working in IT.
-
-  - name: Logic War
-    url: logic-war
-    tagline: Strategic twist on 2048 rules.
-
-  - name: Worm's Tale
-    url: worms-tale
-    tagline: Infinite and procedural world for one little worm.
-
-  - name: Dragon Vegetarian
-    url: dragon-vegetarian
-    tagline: First public game from P1X (kj)
+  - name: Poom
+    url: poom
+    tagline: Simple and fast platform game.
 
 - title: Game Jams / Hackathons
   games:
+  - name: Life is Short
+    url: life-is-short
+    tagline: Pure arcade fun.
+
   - name: Forgotten Island
     url: forgotten-island
     jam: Hangover Game Jam 2018
@@ -108,6 +96,22 @@
 
 - title: Prototypes
   games:
+  - name: Office People
+    url: office-people
+    tagline: Irrational game about working in IT.
+
+  - name: Logic War
+    url: logic-war
+    tagline: Strategic twist on 2048 rules.
+
+  - name: Worm's Tale
+    url: worms-tale
+    tagline: Infinite and procedural world for one little worm.
+
+  - name: Dragon Vegetarian
+    url: dragon-vegetarian
+    tagline: First public game from P1X (kj)
+
   - name: Assemby Cave
     url: assembly-cave
     tagline: Text Adventure
