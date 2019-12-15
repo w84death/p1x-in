@@ -2,7 +2,7 @@
 title: "Satelite Terrain"
 layout: item
 permalink: /market/satellite-terrain
-compatibility: Blender 2.81a
+compatibility: Blender 2.81a, Cycles
 type: shader
 status: available
 file: satelite-terrain-shader.zip
@@ -22,13 +22,9 @@ screenshots:
     big: screen4.jpg
 
 resources:
-  - title: High resolution gallery
-    url: https://p1x.smugmug.com
+  - title: High resolution gallery with more examples
+    url: https://p1x.smugmug.com/P1X/P1X-Libre-Market/Satellite-Terrain-Shader/
     humanUrl: p1x.smugmug.com
-
-  - title: Blender Market Store
-    url: http://blendermarket.com
-    humanUrl: blendermarket.com
 ---
 
 Satellite Terrain is a one plane shader. It means you just need a plane that have a lot of poligons (64x64+) plus Subsurface Division (4+) modifier.

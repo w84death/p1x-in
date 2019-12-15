@@ -2,13 +2,13 @@
   market:
   - name: Satellite Terrain
     url: satellite-terrain
-    tagline: Super realistic terrain generation for satelite photos.
+    tagline: Super realistic terrain generation for satelite photos
     status: released
-    
-  - name: Stylistic Dunes
+
+  - name: Simple Dunes
     url: dunes
     tagline: Dunes with infinite amount of intresting shapes
-    status: preview
+    status: released
 
 - title: Photogrammetry
   market:
@@ -21,5 +21,5 @@
   market:
   - name: P1X Booth
     url: p1x-booth
-    tagline: Our suvenir ready to print.
+    tagline: Our suvenir ready to print
     status: preview

@@ -2,37 +2,37 @@
 title: "Dunes"
 layout: item
 permalink: /market/dunes
-compatibility: Blender 2.81a
+compatibility: Blender 2.81a, Cycles
 type: shader
-status: in development / preview
+status: released
 file: dunes-shader.zip
-filesize: ---kB
+filesize: 204kB
 
 screenshots:
-  - small: screen1_thumb.jpg
-    big: screen1.jpg
+  - small: dunes1_thumb.jpg
+    big: sunes1.jpg
 
-  - small: screen2_thumb.jpg
-    big: screen2.jpg
+  - small: dunes2_thumb.jpg
+    big: dunes2.jpg
 
-  - small: screen3_thumb.jpg
-    big: screen3.jpg
+  - small: dunes3_thumb.jpg
+    big: dunes3.jpg
   
-  - small: screen4_thumb.jpg
-    big: screen4.jpg
+  - small: dunes4_thumb.jpg
+    big: dunes4.jpg
+
+  - small: dunes5_thumb.jpg
+    big: dunes5.jpg
 
 resources:
-  - title: High resolution gallery
-    url: https://p1x.smugmug.com
+  - title: High resolution gallery with more examples
+    url: https://p1x.smugmug.com/P1X/P1X-Libre-Market/Dunes-Shader
     humanUrl: p1x.smugmug.com
 
-  - title: Blender Market Store
-    url: http://blendermarket.com
-    humanUrl: blendermarket.com
 ---
 
 Dunes is a one plane shader. It means you just need a plane that have a lot of poligons (64x64+) plus Subsurface Division (4+) modifier.
 
-![Satellite Terrain in Blender 3D](/assets/market/satellite-terrain/shader.jpg)
+![Satellite Terrain in Blender 3D](/assets/market/dunes/shader.jpg)
 
-Rendered in Cycles OptiX. Will not work in Eevee.
+Rendered in Cycles. Will not work in Eevee.

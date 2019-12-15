@@ -31,7 +31,7 @@ article > h1 {margin-bottom:0.5em;}
 .small {font-size:smaller;}
 .center {text-align:center;}
 
-img.thumb {width:160px; height:160px;}
+img.thumb {width:160px; height:160px;; margin: 16px; margin-left:0;}
 img.cover {width:180px; height:254px;}
 img.market {width:355px; height:254px;}
 img.logo,
