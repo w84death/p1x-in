@@ -33,31 +33,36 @@ article > h1 {margin-bottom:0.5em;}
 
 img.thumb {width:160px; height:160px;}
 img.cover {width:180px; height:254px;}
+img.market {width:355px; height:254px;}
 img.logo,
 .logo a {width:72px; height:72px; display:block;}
 
 .covers {text-align:center;}
 .covers .rect {padding:8px 14px; color:#345; background-color:#fff;
     font-weight:900; font-size:12px; text-decoration:none; margin:0 8px 8px 0;
-    border:1px solid #ccc;border-bottom:2px solid #345; border-right:1px solid #345;}
-.covers .rect { width:180px; height:335px; padding:0; margin:10px; vertical-align:top; line-height:1.5em;}
-.covers .game h3, .covers .game h4 {margin:0;}
-.covers .game p {padding:0 1em;}
-.covers .game h3 {position:relative; width:180px; height:254px;}
-.covers .game h3:after {position:absolute; top:0; left:0;  display:block;
+    border:1px solid #ccc;border-bottom:2px solid #345; border-right:1px solid #345;
+    width:180px; height:335px; padding:0; margin:10px; vertical-align:top; line-height:1.5em;}
+.covers .game h3, .covers .game h4, .covers .market h3, .covers .market h4 {margin:0;}
+.covers .game p, .covers .market p {padding:0 1em;}
+.covers .game h3, .covers .market h3 {position:relative; width:180px; height:254px;}
+.covers .game h3:after, .covers .market h3:after {position:absolute; top:0; left:0;  display:block;
     width:180px; height:254px; content:'';
     background-image: -webkit-linear-gradient(rgba(255,255,255, 0) 85%, rgba(255,255,255,1) 100%);
     background-image: -moz-linear-gradient(rgba(255,255,255, 0) 85%, rgba(255,255,255,1) 100%);
     background-image: -o-linear-gradient(rgba(255,255,255, 0) 85%, rgba(255,255,255,1) 100%);
     background-image: linear-gradient(rgba(255,255,255, 0) 85%, rgba(255,255,255,1) 100%);}
 .covers .game {width:180px; height:335px; padding:0;}
-.covers .game a {display:block; text-decoration:none;}
-.covers .game a h4 {text-decoration:underline;}
+.covers .game a, .covers .market a {display:block; text-decoration:none;}
+.covers .game a h4, .covers .market a h4 {text-decoration:underline;}
+
+.covers .market h3 {width:355px; text-align:center;}
+.covers .market h3:after {width:355px; height:254px;}
+.covers .market {width:355px;}
 
 .dt {padding:1em 2em;}
 .dt, .dt caption {border:1px solid #ccc;  background-color:#fff;}
 .dt caption {margin-bottom:0.5em; padding:0.5em;}
-.dt th {text-align:right; padding:0.5em 2em; white-space:nowrap;}
+.dt th {text-align:right; padding:0.5em 2em; white-space:nowrap; font-size:small;}
 .dt td {border-bottom:1px solid #eee; padding:0 1em;}
 .dt .cover {border:none;}
 .dt tr:nth-child(2n+1) th {background-color:#f8f8f8;}

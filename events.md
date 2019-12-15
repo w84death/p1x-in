@@ -1,6 +1,7 @@
 ---
 layout: events
 title: Events
+order: 2
 permalink: /events/
 ---
 

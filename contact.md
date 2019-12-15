@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contact
+order: 999
 permalink: /contact/
 resources:
   - title: Twitter

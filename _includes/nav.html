@@ -1,6 +1,7 @@
+{% assign sorted_nav = (site.pages | sort: 'order') %}
 <nav class="menu">
     <ul>
-    {% for page in site.pages %}
+    {% for page in sorted_nav %}
         {% unless page.exclude %}
             {% if page.title %}
                 <li class="iblock"><a href="{{ page.url }}">{{page.title}}</a></li>

@@ -25,3 +25,6 @@ collections:
   games:
     output: true
     permalink: /:collection/:name
+  market:
+    output: true
+    permalink: /:collection/:name

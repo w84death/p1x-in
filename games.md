@@ -1,6 +1,7 @@
 ---
 layout: games
 title: Games
+order: 1
 permalink: /games/
 ---
 

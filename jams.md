@@ -1,6 +1,7 @@
 ---
 layout: jams
 title: Jams
+order: 3
 permalink: /jams/
 ---
 

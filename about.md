@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About Us
+order: 0
 permalink: /about/
 resources:
   - title: People behind P1X

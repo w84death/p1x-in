@@ -1,8 +1,12 @@
 ---
 layout: page
 title: Wild
+order: 4
 permalink: /wild/
 resources:
+  - title: Blender 3D Gallery
+    url: /wild/b3d
+    humanUrl: Portfolio of our best works
   - title: Pico-8
     url: /wild/pico8
     humanUrl: Best virtual console

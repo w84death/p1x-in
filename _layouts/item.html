@@ -1,0 +1,63 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+<aside>
+  <table class="dt">
+    <caption>Item details</caption>
+    <tr>
+      <th>Title</th>
+      <td>{{ page.title }}</td>
+      <td rowspan="6" class="cover">
+        <img src="/assets{{ page.url }}/cover.jpg" alt="Cover of {{ page.title }}" class="market"/>
+      </td>
+    </tr>
+    <tr>
+      <th>Compatibility</th>
+      <td>{{ page.compatibility }}</td>
+    </tr>
+    <tr>
+      <th>Type</th>
+      <td>{{ page.type }}</td>
+    </tr>
+    <tr>
+      <th>Status</th>
+      <td>{{ page.status }}</td>
+    </tr>
+    {% if page.file %}
+    <tr>
+      <th>DOWNLOAD</th>
+      <td><a href="/assets{{ page.url }}/{{ page.file }}">{{ page.file }}</a> {{ page.filesize }}</td>
+    </tr>
+    {% endif %}
+  </table>
+</aside>
+
+<h2>Description</h2>
+{{ content }}
+
+{% if page.screenshots %}
+<aside>  
+    <h2>Gallery</h2>    
+    {% for scr in page.screenshots %}
+    <a href="/assets{{ page.url }}/{{ scr.big }}">
+      <img src="/assets{{ page.url }}/{{scr.small}}" alt="Screenshot from {{ page.title }}" class="thumb"/>
+      </a>
+    {% endfor %}
+</aside>
+{% endif %}
+
+{% if page.resources %}
+<aside>
+<h2>Resources</h2>
+  <table class="dt">
+    <caption>Learn more about this item.</caption>
+    {% for res in page.resources %}
+    <tr>
+      <th>{{ res.title }}</th>
+      <td><a href="{{ res.url }}">{{ res.humanUrl }}</a></td>
+    </tr>
+    {% endfor %}
+  </table>
+</aside>
+{% endif %}
