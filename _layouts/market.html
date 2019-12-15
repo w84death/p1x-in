@@ -6,7 +6,7 @@ layout: default
 {{ content }}
 
 {% for category in site.data.market %}
-    {% assign items = (category.market | where: "status" , "released") %}
+    {% assign items = category.market | where: "status" , "released" %}
 
     {% if items.size > 0 %}
         <h2 class="title">{{ category.title }}</h2>
