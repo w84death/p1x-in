@@ -22,7 +22,7 @@
     <!-- End NSA Code -->
 
   </head>
-  <body>
+  <body {% if page.background %}style="background-image: url('/assets/{{ page.permalink }}/{{ page.background }}');"{% endif %}>
     <main id="container" tabindex="-1">
       {% include header.html %}
 

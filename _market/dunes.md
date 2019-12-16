@@ -1,10 +1,12 @@
 ---
 title: "Dunes"
 layout: item
+background: dunes4.jpg
 permalink: /market/dunes
 compatibility: Blender 2.81a, Cycles
 type: shader
 status: released
+license: MIT
 file: dunes-shader.zip
 filesize: 204kB
 

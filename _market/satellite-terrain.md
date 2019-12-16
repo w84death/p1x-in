@@ -1,10 +1,12 @@
 ---
 title: "Satelite Terrain"
 layout: item
+background: screen2.jpg
 permalink: /market/satellite-terrain
 compatibility: Blender 2.81a, Cycles
 type: shader
 status: available
+license: MIT
 file: satelite-terrain-shader.zip
 filesize: 845kB
 
