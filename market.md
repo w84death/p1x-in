@@ -1,6 +1,7 @@
 ---
-layout: market
 title: Libre Market
+title2: Free and Open Source Assets
+layout: market
 order: 5
 permalink: /market/
 ---

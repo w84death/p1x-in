@@ -12,13 +12,18 @@
 
 - title: Photogrammetry
   market:
-  - name: Crassula ovata
-    url: crassula
-    tagline: Commonly known as jade plant, lucky plant, money plant or money tree
+  - name: Small Rocks Pack 1
+    url: small-rocks-pack1
+    tagline: Pack of real small rocks
     status: preview
 
 - title: Models
   market:
+  - name: Crassula ovata
+    url: crassula
+    tagline: Commonly known as jade plant, lucky plant, money plant or money tree
+    status: preview
+  
   - name: P1X Booth
     url: p1x-booth
     tagline: Our suvenir ready to print

@@ -1,5 +1,6 @@
 ---
 title: "Tanks of Freedom"
+title2: "Games"
 layout: game
 permalink: /games/tanks-of-freedom
 created: 31-01-2015
