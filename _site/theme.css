@@ -70,3 +70,6 @@ img.logo,
 .dt tr:nth-child(2n+1) th {background-color:#f8f8f8;}
 .dt td a {display:block;}
 .dt tr:hover td {background-color:#f8f8f8;}
+
+.landingpage h2 {font-size:8em;}
+.landingpage h3 {font-size:2em;}

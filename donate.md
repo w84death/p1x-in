@@ -10,13 +10,14 @@ resources:
   - title: PayPal
     url: https://www.paypal.com/us/cgi-bin/webscr?cmd=_xclick-donations-factory
     humanUrl: "donate@p1x.in"
-  - title: BitCoin
-    url: https://blockchain.info/address/1FFYVfV5gLLvon48QgEoMtg1CnxmjH63F4
-    humanUrl: "1FFYVfV5gLLvon48QgEoMtg1CnxmjH63F4"
+  - title: Ethereum
+    url: https://etherscan.io/address/0xd640e987309d646d1f8c405eb932bbd32f81fc24
+    humanUrl: "0xd640e987309d646d1f8c405eb932bbd32f81fc24"
 ---
 
-Support our development by buying our games via itch.io or directly donating via PayPal/BitCoin.
+Support our development by buying our games via itch.io or directly donating via PayPal/Ethereum.
 
+<h3>PayPal</h3>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_donations">
 <input type="hidden" name="business" value="donate@p1x.in">
@@ -28,4 +29,7 @@ Support our development by buying our games via itch.io or directly donating via
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
-<p><img alt="BitCoin adress" src="https://blockchain.info/qr?data=1FFYVfV5gLLvon48QgEoMtg1CnxmjH63F4&size=200" /><p>
+<hr/>
+
+<h3>Ethereum</h3>
+<p><img alt="Ethereum adress" src="/assets/eth_qr.png" /><p>

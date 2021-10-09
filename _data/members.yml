@@ -1,13 +1,13 @@
 - status: Core Team
   team:
-  - name: Krzysztof Jankowski
+  - name: Krzysztof Krystian Jankowski
     avatar: w84death.jpg
     www:   krzysztofjankowski.com
     soundcloud: w84death
     twitter: w84death
     mail: kj@p1x.in
     location: Poznań, Poland
-    desc: P1X Founder, Pixel Art, Game Design, Code, Shaders
+    desc: P1X Founder, Cyfrowy Nomada CEO, Pixel Art, Game Design, Code, Shaders
     color: '#D2A89C'
 
   - name: Wojciech Chojnacki
@@ -24,6 +24,9 @@
     desc: Game Design, Code
     color: '#000000'
 
+
+- status: Colaboration
+  team:
   - name: Mitchell Maurycy Echevarria Motola
     avatar: mauryc.jpg
     www: mitchellechevarria.wixsite.com/mauryc
@@ -33,8 +36,6 @@
     desc: 3D
     color: '#000000'
 
-- status: Colaboration
-  team:
   - name: Mirek Harenda
     mail: mirek.harenda@gmail.com
     www: soundcloud.com/mirek-harenda

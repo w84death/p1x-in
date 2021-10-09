@@ -1,11 +1,23 @@
 - year: Upcoming
   jams:
+  - name: Global Game Jam
+    date: 28-30 Jan
+    location: Poznań, Poland
+    www: http://globalgamejam.org
+    theme: TBA
+    time: 48h
   - name: Hangover Game Jam
     date: 01 Jan
     location: Global
     www: https://hangoverjam.p1x.in/
     theme: TBA
     time: 24h
+  - name: Polish-Swiss Game Jam
+    date: 19-20 October
+    location: Poznań, Poland
+    www: https://gic.gd/game-jam/
+    theme: Sustainability
+    time: 48h
 
 - year: 2019
   jams:
