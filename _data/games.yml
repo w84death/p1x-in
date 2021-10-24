@@ -1,12 +1,20 @@
 - title: Flagship Games
   games:
+  - name: GreenWay
+    url: green-way
+    tagline: A simple, zen like puzzle game.
+
   - name: Tanks of Freedom
     url: tanks-of-freedom
     tagline: Tanks. Lot of tanks.
 
-  - name: Rat is Fat
-    url: rat-is-fat
-    tagline: Fat rat.
+  - name: Piradice
+    url: piradice
+    tagline: You know that the treasure is near.
+
+  - name: Bit Wars
+    url: bit-wars
+    tagline: Classic TBS with a twist!
 
   - name: Paradise Volley
     url: paradise-volley
@@ -15,18 +23,14 @@
   - name: Boctok (Vostok)
     url: boctok
     tagline: Space.
-
-  - name: Bit Wars
-    url: bit-wars
-    tagline: Classic TBS with a twist!
-
-  - name: Piradice
-    url: piradice
-    tagline: You know that the treasure is near.
-
+    
   - name: Poom
     url: poom
     tagline: Simple and fast platform game.
+
+  - name: Rat is Fat
+    url: rat-is-fat
+    tagline: Fat rat.
 
 - title: Game Jams / Hackathons
   games:

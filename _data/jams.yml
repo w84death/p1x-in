@@ -12,12 +12,18 @@
     www: https://hangoverjam.p1x.in/
     theme: TBA
     time: 24h
+
+
+- year: 2021
+  jams:
   - name: Polish-Swiss Game Jam
     date: 19-20 October
-    location: Poznań, Poland
+    location: MTP, Poznań, Poland
     www: https://gic.gd/game-jam/
     theme: Sustainability
     time: 48h
+    game: GreenWay
+    game_url: green-way
 
 - year: 2019
   jams:
